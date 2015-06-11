@@ -1,0 +1,244 @@
+/*
+   HEADER SECTION
+   ========================================================================== */
+/* line 6, ../scss/styles.scss */
+.header-section {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 999;
+  min-width: 100%;
+}
+
+/* line 14, ../scss/styles.scss */
+.contain-to-grid {
+  background-color: rgba(255, 255, 255, 0.97);
+}
+
+/* line 19, ../scss/styles.scss */
+.header-fill {
+  background: #fff;
+  height: 135px;
+}
+/* line 22, ../scss/styles.scss */
+.header-fill .tablet-mobile-logo img {
+  padding-top: 30px;
+}
+
+/* line 27, ../scss/styles.scss */
+.full-width {
+  min-width: 100%;
+}
+
+/* line 31, ../scss/styles.scss */
+p {
+  line-height: 3rem;
+  padding-bottom: 30px;
+}
+
+/*
+   TOPBAR NAVGATION
+   ========================================================================== */
+/* line 40, ../scss/styles.scss */
+.top-bar {
+  background: none;
+  padding: 45px 0.9375rem 90px 0.9375rem;
+  transition: all 0.5s ease 0.1s;
+}
+/* line 46, ../scss/styles.scss */
+.top-bar ul.title-area img {
+  margin: -10px 0 0 0;
+}
+/* line 49, ../scss/styles.scss */
+.top-bar .top-bar-section ul {
+  background: none;
+}
+/* line 52, ../scss/styles.scss */
+.top-bar .top-bar-section ul li a:not(.button), .top-bar .top-bar-section ul li.active a:not(.button) {
+  background: none;
+  line-height: 30px;
+  font-size: 12px;
+  padding: 0;
+  margin: 5px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 61, ../scss/styles.scss */
+.top-bar .top-bar-section ul li a:not(.button):hover {
+  background: none;
+  border-bottom: 2px solid #969cf5;
+  color: #222;
+}
+/* line 67, ../scss/styles.scss */
+.top-bar .top-bar-section ul li.active a:not(.button) {
+  border-bottom: 2px solid #969cf5;
+  color: #222;
+}
+/* line 70, ../scss/styles.scss */
+.top-bar .top-bar-section ul li.active a:not(.button):hover {
+  background: none;
+}
+/* line 74, ../scss/styles.scss */
+.top-bar .top-bar-section ul li {
+  margin-left: 30px;
+  background: none;
+}
+/* line 77, ../scss/styles.scss */
+.top-bar .top-bar-section ul li a {
+  color: #888;
+}
+/* line 83, ../scss/styles.scss */
+.top-bar .top-bar-section ul li:hover:not(.has-form) > a {
+  color: #333;
+}
+/* line 86, ../scss/styles.scss */
+.top-bar .top-bar-section li ul.dropdown {
+  background: none;
+  border: 1px solid #ddd;
+  color: #888;
+}
+/* line 90, ../scss/styles.scss */
+.top-bar .top-bar-section li ul.dropdown li {
+  background: none;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+  padding: 5px 15px 5px 15px;
+}
+/* line 98, ../scss/styles.scss */
+.top-bar .top-bar-section li ul.dropdown li:hover {
+  background: none;
+}
+/* line 101, ../scss/styles.scss */
+.top-bar .top-bar-section li ul.dropdown li a:not(.button):hover, .top-bar .top-bar-section li ul.dropdown li a:not(.button) {
+  background: none;
+  color: #222;
+  padding: 20px -4px 40px 45px;
+}
+/* line 107, ../scss/styles.scss */
+.top-bar .top-bar-section ul.dropdown li:hover:not(.has-form) > a:not(.button) {
+  background: none;
+  color: #222;
+}
+/* line 112, ../scss/styles.scss */
+.top-bar .has-dropdown > a:after {
+  border-color: rgba(0, 0, 0, 0.5) transparent transparent;
+  margin-top: -5px;
+}
+
+/*
+   CONTENT SECTION
+   ========================================================================== */
+/* line 124, ../scss/styles.scss */
+.content-section .main-content {
+  margin-top: 35px;
+}
+
+/*
+   FOOTER SECTION
+   ========================================================================== */
+/* line 134, ../scss/styles.scss */
+.footer-section {
+  background: #333;
+  min-height: 100px;
+}
+/* line 137, ../scss/styles.scss */
+.footer-section p {
+  color: #fff;
+  margin-top: 50px;
+}
+
+/* line 145, ../scss/styles.scss */
+.padding-on-my-header {
+  padding: 17px 0.9375rem 62px 0.9375rem;
+}
+/* line 147, ../scss/styles.scss */
+.padding-on-my-header ul.title-area img {
+  margin: -5px 0 0 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 155, ../scss/styles.scss */
+  .top-bar {
+    margin-top: 0;
+    padding: 0;
+    float: none;
+    background: none;
+  }
+  /* line 161, ../scss/styles.scss */
+  .top-bar .toggle-topbar.menu-icon a span {
+    color: #222;
+  }
+  /* line 163, ../scss/styles.scss */
+  .top-bar .toggle-topbar.menu-icon a span:after {
+    box-shadow: 0 10px 0 1px #222, 0 16px 0 1px #222, 0 22px 0 1px #222;
+  }
+  /* line 168, ../scss/styles.scss */
+  .top-bar ul.title-area img {
+    margin: -2px 0 0;
+    width: 145px;
+  }
+  /* line 173, ../scss/styles.scss */
+  .top-bar .top-bar-section ul {
+    background: #333;
+  }
+  /* line 175, ../scss/styles.scss */
+  .top-bar .top-bar-section ul li {
+    margin-left: 0;
+  }
+  /* line 178, ../scss/styles.scss */
+  .top-bar .top-bar-section ul li > a {
+    background: #969cf5;
+    border-radius: 0;
+    font-size: 0.9rem;
+  }
+  /* line 184, ../scss/styles.scss */
+  .top-bar .top-bar-section ul li:not(.has-form) a:not(.button) {
+    background: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 0;
+  }
+  /* line 189, ../scss/styles.scss */
+  .top-bar .top-bar-section ul li:not(.has-form) a:not(.button):hover {
+    background: #969cf5;
+    color: #fff;
+    margin-top: 0;
+  }
+  /* line 196, ../scss/styles.scss */
+  .top-bar .top-bar-section ul li.active:not(.has-form) a:not(.button) {
+    background: #969cf5;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 0;
+  }
+  /* line 201, ../scss/styles.scss */
+  .top-bar .top-bar-section ul li.active:not(.has-form) a:not(.button):hover {
+    background: #adb2f7;
+    margin-top: 0;
+  }
+
+  /* line 210, ../scss/styles.scss */
+  .top-bar.padding-on-my-header ul.title-area img {
+    margin: 5px 13px 0;
+    width: 35px;
+  }
+
+  /* line 215, ../scss/styles.scss */
+  .top-bar.expanded {
+    margin-top: 0;
+    padding: 0;
+    float: none;
+  }
+  /* line 219, ../scss/styles.scss */
+  .top-bar.expanded .toggle-topbar.menu-icon a {
+    color: #fff;
+  }
+  /* line 221, ../scss/styles.scss */
+  .top-bar.expanded .toggle-topbar.menu-icon a:after {
+    box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+  }
+
+  /* line 228, ../scss/styles.scss */
+  .header-fill {
+    height: 40px;
+  }
+}
